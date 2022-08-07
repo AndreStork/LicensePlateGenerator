@@ -37,7 +37,7 @@ position: absolute;
 </style>
 </head>
 <body>
-
+<center>
 <h1>Plate generated</h1>
 
 <div class="container">
@@ -47,6 +47,6 @@ position: absolute;
 </div>
 <br><br>
 <p>Feel free to screenshot this and use it for any legal purporse.</p>
-
+</center>
 </body>
 </html>
