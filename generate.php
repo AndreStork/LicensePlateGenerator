@@ -34,7 +34,7 @@ Top text: <?php echo $_POST["ttext"]; ?><br>
 Bottom text: <?php echo $_POST["btext"]; ?>
 
 <div class="container">
-  <img src="plates/normal.png" alt="With black border" style="width:300px;">
+  <img src="plate.png" alt="License plate" style="width:300px;">
   <div class="top"><?php echo $_POST["ttext"]; ?><br></div>
   <div class="bottom"><?php echo $_POST["btext"]; ?></div>
 </div>
