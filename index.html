@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AndreStork's License Plate Generator</title>
+<style>
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom text */
+.bottom {
+position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px
+}
+</style>
+</head>
+<body>
+<h1>Custom License Plate Generator</h1>
+<p>With this website you can generate custom license plates</p>
+<div class="container">
+  <img src="plates/normal.png" alt="With black border" style="width:300px;">
+  <div class="centered">727WYFSI</div>
+  <div class="bottom">lpg.andrestork.cf</div>
+</div>
+<br><br>
+<form action="generate.php" method="post">
+  <input type="text" id="ttext" value="Top text"><br>
+  <input type="text" id="btext" value="Bottom text"><br>
+  <input type="submit" value="Submit">
+ <form>
+<br><br>
+<p>DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY, THIS GENERATOR WAS NEVER NOR WILL PROBABLY BE A LEGAL REPLACEMENT FOR YOUR CAR LICENSE PLATE, PLEASE USE THIS FOLLOWING YOUR COUNTRY'S RULES.</p>
+</body>
+</html>
