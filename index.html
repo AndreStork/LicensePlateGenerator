@@ -19,8 +19,8 @@ position: absolute;
   font-size: 12px
 }
 
-/* Centered text */
-.centered {
+/* Top text */
+.top {
   position: absolute;
   top: 25px;
   left: 50%;
@@ -34,13 +34,13 @@ position: absolute;
 <p>With this website you can generate custom license plates</p>
 <div class="container">
   <img src="plates/normal.png" alt="With black border" style="width:300px;">
-  <div class="centered">727WYFSI</div>
+  <div class="top">727WYFSI</div>
   <div class="bottom">lpg.andrestork.cf</div>
 </div>
 <br><br>
 <form action="generate.php" method="post">
-  <input type="text" id="ttext" value="Top text"><br>
-  <input type="text" id="btext" value="Bottom text"><br>
+  <input type="text" name="ttext" value="Top text"><br>
+  <input type="text" name="btext" value="Bottom text"><br>
   <input type="submit" value="Submit">
  <form>
 <br><br>
