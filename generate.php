@@ -39,14 +39,13 @@ position: absolute;
 <body>
 <center>
 <h1>Plate generated</h1>
-
 <div class="container">
   <img src="plate.png" alt="License plate" style="width:300px;">
   <div class="top"><?php echo $_POST["ttext"]; ?><br></div>
   <div class="bottom"><?php echo $_POST["btext"]; ?></div>
 </div>
 <br><br>
-<p>Feel free to screenshot this and use it for any legal purporse.</p>
+<p>Feel free to screenshot this and use it for any legal purpose.</p>
 </center>
 </body>
 </html>
