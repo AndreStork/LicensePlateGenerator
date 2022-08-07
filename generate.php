@@ -46,7 +46,7 @@ position: absolute;
   <div class="bottom"><?php echo $_POST["btext"]; ?></div>
 </div>
 <br><br>
-<p>Feel free to screenshot this and use it with any legal purporse.</p>
+<p>Feel free to screenshot this and use it for any legal purporse.</p>
 
 </body>
 </html>
