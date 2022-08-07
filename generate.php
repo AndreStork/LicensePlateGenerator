@@ -18,7 +18,7 @@
 /* Bottom text */
 .bottom {
 position: absolute;
-  bottom: 8px;
+  bottom: 3px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 12px;
@@ -38,8 +38,7 @@ position: absolute;
 </head>
 <body>
 
-Top text: <?php echo $_POST["ttext"]; ?><br>
-Bottom text: <?php echo $_POST["btext"]; ?>
+<h1>Plate generated</h1>
 
 <div class="container">
   <img src="plate.png" alt="License plate" style="width:300px;">
@@ -47,6 +46,7 @@ Bottom text: <?php echo $_POST["btext"]; ?>
   <div class="bottom"><?php echo $_POST["btext"]; ?></div>
 </div>
 <br><br>
+<p>Feel free to screenshot this and use it with any legal purporse.</p>
 
 </body>
 </html>
