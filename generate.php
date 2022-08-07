@@ -18,7 +18,7 @@
 /* Bottom text */
 .bottom {
 position: absolute;
-  bottom: 6px;
+  bottom: 8px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 12px;
